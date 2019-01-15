@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\wspol\ProjektX
+CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Pobi_projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\wspol\ProjektX\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\wspol\ProjektX\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\ProjektX\cmake-build-debug\CMakeFiles D:\wspol\ProjektX\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\ProjektX\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,87 @@ library/src/Client.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Client.cpp.s
 .PHONY : library/src/Client.cpp.s
 
+library/src/ClientsRepository.obj: library/src/ClientsRepository.cpp.obj
+
+.PHONY : library/src/ClientsRepository.obj
+
+# target to build an object file
+library/src/ClientsRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.obj
+.PHONY : library/src/ClientsRepository.cpp.obj
+
+library/src/ClientsRepository.i: library/src/ClientsRepository.cpp.i
+
+.PHONY : library/src/ClientsRepository.i
+
+# target to preprocess a source file
+library/src/ClientsRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.i
+.PHONY : library/src/ClientsRepository.cpp.i
+
+library/src/ClientsRepository.s: library/src/ClientsRepository.cpp.s
+
+.PHONY : library/src/ClientsRepository.s
+
+# target to generate assembly for a file
+library/src/ClientsRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.s
+.PHONY : library/src/ClientsRepository.cpp.s
+
+library/src/Company.obj: library/src/Company.cpp.obj
+
+.PHONY : library/src/Company.obj
+
+# target to build an object file
+library/src/Company.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Company.cpp.obj
+.PHONY : library/src/Company.cpp.obj
+
+library/src/Company.i: library/src/Company.cpp.i
+
+.PHONY : library/src/Company.i
+
+# target to preprocess a source file
+library/src/Company.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Company.cpp.i
+.PHONY : library/src/Company.cpp.i
+
+library/src/Company.s: library/src/Company.cpp.s
+
+.PHONY : library/src/Company.s
+
+# target to generate assembly for a file
+library/src/Company.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Company.cpp.s
+.PHONY : library/src/Company.cpp.s
+
+library/src/Person.obj: library/src/Person.cpp.obj
+
+.PHONY : library/src/Person.obj
+
+# target to build an object file
+library/src/Person.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Person.cpp.obj
+.PHONY : library/src/Person.cpp.obj
+
+library/src/Person.i: library/src/Person.cpp.i
+
+.PHONY : library/src/Person.i
+
+# target to preprocess a source file
+library/src/Person.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Person.cpp.i
+.PHONY : library/src/Person.cpp.i
+
+library/src/Person.s: library/src/Person.cpp.s
+
+.PHONY : library/src/Person.s
+
+# target to generate assembly for a file
+library/src/Person.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Person.cpp.s
+.PHONY : library/src/Person.cpp.s
+
 library/src/Rent.obj: library/src/Rent.cpp.obj
 
 .PHONY : library/src/Rent.obj
@@ -175,6 +256,33 @@ library/src/Rent.s: library/src/Rent.cpp.s
 library/src/Rent.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Rent.cpp.s
 .PHONY : library/src/Rent.cpp.s
+
+library/src/RentsRepository.obj: library/src/RentsRepository.cpp.obj
+
+.PHONY : library/src/RentsRepository.obj
+
+# target to build an object file
+library/src/RentsRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.obj
+.PHONY : library/src/RentsRepository.cpp.obj
+
+library/src/RentsRepository.i: library/src/RentsRepository.cpp.i
+
+.PHONY : library/src/RentsRepository.i
+
+# target to preprocess a source file
+library/src/RentsRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.i
+.PHONY : library/src/RentsRepository.cpp.i
+
+library/src/RentsRepository.s: library/src/RentsRepository.cpp.s
+
+.PHONY : library/src/RentsRepository.s
+
+# target to generate assembly for a file
+library/src/RentsRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.s
+.PHONY : library/src/RentsRepository.cpp.s
 
 library/src/Room.obj: library/src/Room.cpp.obj
 
@@ -269,9 +377,21 @@ help:
 	@echo ... library/src/Client.obj
 	@echo ... library/src/Client.i
 	@echo ... library/src/Client.s
+	@echo ... library/src/ClientsRepository.obj
+	@echo ... library/src/ClientsRepository.i
+	@echo ... library/src/ClientsRepository.s
+	@echo ... library/src/Company.obj
+	@echo ... library/src/Company.i
+	@echo ... library/src/Company.s
+	@echo ... library/src/Person.obj
+	@echo ... library/src/Person.i
+	@echo ... library/src/Person.s
 	@echo ... library/src/Rent.obj
 	@echo ... library/src/Rent.i
 	@echo ... library/src/Rent.s
+	@echo ... library/src/RentsRepository.obj
+	@echo ... library/src/RentsRepository.i
+	@echo ... library/src/RentsRepository.s
 	@echo ... library/src/Room.obj
 	@echo ... library/src/Room.i
 	@echo ... library/src/Room.s

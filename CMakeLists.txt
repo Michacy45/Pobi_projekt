@@ -15,4 +15,5 @@ add_executable(ProjektX
         library/src/Client.cpp
         library/src/Rent.cpp
         library/src/Room.cpp
-        library/src/RoomType.cpp)
+        library/src/RoomType.cpp
+        library/include/Person.h library/src/Person.cpp library/include/Company.h library/src/Company.cpp library/include/ClientsRepository.h library/src/ClientsRepository.cpp library/include/RentsRepository.h library/src/RentsRepository.cpp)

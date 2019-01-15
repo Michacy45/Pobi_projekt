@@ -4,11 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/wspol/ProjektX/library/src/Client.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Client.cpp.obj"
-  "D:/wspol/ProjektX/library/src/Rent.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Rent.cpp.obj"
-  "D:/wspol/ProjektX/library/src/Room.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Room.cpp.obj"
-  "D:/wspol/ProjektX/library/src/RoomType.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomType.cpp.obj"
-  "D:/wspol/ProjektX/program/src/main.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/program/src/main.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/Client.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Client.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/ClientsRepository.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/Company.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Company.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/Person.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Person.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/Rent.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Rent.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/RentsRepository.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/Room.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Room.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/library/src/RoomType.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomType.cpp.obj"
+  "C:/Users/Adam/Desktop/Pobi_projekt/program/src/main.cpp" "C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir/program/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
