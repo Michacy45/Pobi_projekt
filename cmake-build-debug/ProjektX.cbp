@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/Client.h">
 			<Option target="ProjektX"/>
 		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/ClientsManager.h">
+			<Option target="ProjektX"/>
+		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/ClientsRepository.h">
 			<Option target="ProjektX"/>
 		</Unit>
@@ -96,6 +99,9 @@
 			<Option target="ProjektX"/>
 		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/Person.h">
+			<Option target="ProjektX"/>
+		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/Reception.h">
 			<Option target="ProjektX"/>
 		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/Rent.h">
@@ -107,10 +113,19 @@
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/Room.h">
 			<Option target="ProjektX"/>
 		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/RoomRepository.h">
+			<Option target="ProjektX"/>
+		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/RoomType.h">
 			<Option target="ProjektX"/>
 		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/include/RoomsManager.h">
+			<Option target="ProjektX"/>
+		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/Client.cpp">
+			<Option target="ProjektX"/>
+		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/ClientsManager.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/ClientsRepository.cpp">
@@ -122,6 +137,9 @@
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/Person.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/Reception.cpp">
+			<Option target="ProjektX"/>
+		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/Rent.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
@@ -131,7 +149,13 @@
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/Room.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/RoomRepository.cpp">
+			<Option target="ProjektX"/>
+		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/RoomType.cpp">
+			<Option target="ProjektX"/>
+		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/library/src/RoomsManager.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Pobi_projekt/program/src/main.cpp">

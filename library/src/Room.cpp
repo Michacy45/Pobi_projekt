@@ -25,5 +25,6 @@ void Room::changeRoomType(char type) {
     roomType.changeType(type);
 }
 
-
-
+int Room::getNumber() {
+    return number;
+}

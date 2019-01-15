@@ -182,6 +182,62 @@ CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Pobi_projekt\library\src\RentsRepository.cpp -o CMakeFiles\ProjektX.dir\library\src\RentsRepository.cpp.s
 
+CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj: CMakeFiles/ProjektX.dir/flags.make
+CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj: CMakeFiles/ProjektX.dir/includes_CXX.rsp
+CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj: ../library/src/RoomRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjektX.dir\library\src\RoomRepository.cpp.obj -c C:\Users\Adam\Desktop\Pobi_projekt\library\src\RoomRepository.cpp
+
+CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Pobi_projekt\library\src\RoomRepository.cpp > CMakeFiles\ProjektX.dir\library\src\RoomRepository.cpp.i
+
+CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Pobi_projekt\library\src\RoomRepository.cpp -o CMakeFiles\ProjektX.dir\library\src\RoomRepository.cpp.s
+
+CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj: CMakeFiles/ProjektX.dir/flags.make
+CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj: CMakeFiles/ProjektX.dir/includes_CXX.rsp
+CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj: ../library/src/RoomsManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjektX.dir\library\src\RoomsManager.cpp.obj -c C:\Users\Adam\Desktop\Pobi_projekt\library\src\RoomsManager.cpp
+
+CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Pobi_projekt\library\src\RoomsManager.cpp > CMakeFiles\ProjektX.dir\library\src\RoomsManager.cpp.i
+
+CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Pobi_projekt\library\src\RoomsManager.cpp -o CMakeFiles\ProjektX.dir\library\src\RoomsManager.cpp.s
+
+CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj: CMakeFiles/ProjektX.dir/flags.make
+CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj: CMakeFiles/ProjektX.dir/includes_CXX.rsp
+CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj: ../library/src/ClientsManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjektX.dir\library\src\ClientsManager.cpp.obj -c C:\Users\Adam\Desktop\Pobi_projekt\library\src\ClientsManager.cpp
+
+CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Pobi_projekt\library\src\ClientsManager.cpp > CMakeFiles\ProjektX.dir\library\src\ClientsManager.cpp.i
+
+CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Pobi_projekt\library\src\ClientsManager.cpp -o CMakeFiles\ProjektX.dir\library\src\ClientsManager.cpp.s
+
+CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj: CMakeFiles/ProjektX.dir/flags.make
+CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj: CMakeFiles/ProjektX.dir/includes_CXX.rsp
+CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj: ../library/src/Reception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjektX.dir\library\src\Reception.cpp.obj -c C:\Users\Adam\Desktop\Pobi_projekt\library\src\Reception.cpp
+
+CMakeFiles/ProjektX.dir/library/src/Reception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjektX.dir/library/src/Reception.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Pobi_projekt\library\src\Reception.cpp > CMakeFiles\ProjektX.dir\library\src\Reception.cpp.i
+
+CMakeFiles/ProjektX.dir/library/src/Reception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjektX.dir/library/src/Reception.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Pobi_projekt\library\src\Reception.cpp -o CMakeFiles\ProjektX.dir\library\src\Reception.cpp.s
+
 # Object files for target ProjektX
 ProjektX_OBJECTS = \
 "CMakeFiles/ProjektX.dir/program/src/main.cpp.obj" \
@@ -192,7 +248,11 @@ ProjektX_OBJECTS = \
 "CMakeFiles/ProjektX.dir/library/src/Person.cpp.obj" \
 "CMakeFiles/ProjektX.dir/library/src/Company.cpp.obj" \
 "CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.obj" \
-"CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.obj"
+"CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.obj" \
+"CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj" \
+"CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj" \
+"CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj" \
+"CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj"
 
 # External object files for target ProjektX
 ProjektX_EXTERNAL_OBJECTS =
@@ -206,11 +266,15 @@ ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/Person.cpp.obj
 ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/Company.cpp.obj
 ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.obj
 ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.obj
+ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj
+ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj
+ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj
+ProjektX.exe: CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj
 ProjektX.exe: CMakeFiles/ProjektX.dir/build.make
 ProjektX.exe: CMakeFiles/ProjektX.dir/linklibs.rsp
 ProjektX.exe: CMakeFiles/ProjektX.dir/objects1.rsp
 ProjektX.exe: CMakeFiles/ProjektX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ProjektX.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Adam\Desktop\Pobi_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ProjektX.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProjektX.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

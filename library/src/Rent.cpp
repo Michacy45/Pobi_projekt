@@ -6,6 +6,8 @@ Rent::Rent(shared_ptr<Client> client, shared_ptr<Room> room, int startDate, int 
     this->room=room;
     this->startDate=startDate;
     this->endDate=endDate;
+    shared_ptr<Rent> rent (this);
+    this->client->addRent(rent);
 }
 
 shared_ptr<Client> Rent::getClient() {

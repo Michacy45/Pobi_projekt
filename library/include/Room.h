@@ -1,10 +1,10 @@
+#ifndef PROJEKTX_ROOM_H
+#define PROJEKTX_ROOM_H
+
 #include <iostream>
 #include "RoomType.h"
 
 using namespace std;
-
-#ifndef PROJEKTX_ROOM_H
-#define PROJEKTX_ROOM_H
 
 class Room{
 private:
@@ -18,6 +18,7 @@ public:
     string getRoomInfo();
     bool getSniadanie();
     void changeRoomType(char);
+    int getNumber();
 };
 
 #endif //PROJEKTX_ROOM_H

@@ -149,6 +149,33 @@ library/src/Client.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Client.cpp.s
 .PHONY : library/src/Client.cpp.s
 
+library/src/ClientsManager.obj: library/src/ClientsManager.cpp.obj
+
+.PHONY : library/src/ClientsManager.obj
+
+# target to build an object file
+library/src/ClientsManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj
+.PHONY : library/src/ClientsManager.cpp.obj
+
+library/src/ClientsManager.i: library/src/ClientsManager.cpp.i
+
+.PHONY : library/src/ClientsManager.i
+
+# target to preprocess a source file
+library/src/ClientsManager.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.i
+.PHONY : library/src/ClientsManager.cpp.i
+
+library/src/ClientsManager.s: library/src/ClientsManager.cpp.s
+
+.PHONY : library/src/ClientsManager.s
+
+# target to generate assembly for a file
+library/src/ClientsManager.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.s
+.PHONY : library/src/ClientsManager.cpp.s
+
 library/src/ClientsRepository.obj: library/src/ClientsRepository.cpp.obj
 
 .PHONY : library/src/ClientsRepository.obj
@@ -229,6 +256,33 @@ library/src/Person.s: library/src/Person.cpp.s
 library/src/Person.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Person.cpp.s
 .PHONY : library/src/Person.cpp.s
+
+library/src/Reception.obj: library/src/Reception.cpp.obj
+
+.PHONY : library/src/Reception.obj
+
+# target to build an object file
+library/src/Reception.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj
+.PHONY : library/src/Reception.cpp.obj
+
+library/src/Reception.i: library/src/Reception.cpp.i
+
+.PHONY : library/src/Reception.i
+
+# target to preprocess a source file
+library/src/Reception.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Reception.cpp.i
+.PHONY : library/src/Reception.cpp.i
+
+library/src/Reception.s: library/src/Reception.cpp.s
+
+.PHONY : library/src/Reception.s
+
+# target to generate assembly for a file
+library/src/Reception.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Reception.cpp.s
+.PHONY : library/src/Reception.cpp.s
 
 library/src/Rent.obj: library/src/Rent.cpp.obj
 
@@ -311,6 +365,33 @@ library/src/Room.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/Room.cpp.s
 .PHONY : library/src/Room.cpp.s
 
+library/src/RoomRepository.obj: library/src/RoomRepository.cpp.obj
+
+.PHONY : library/src/RoomRepository.obj
+
+# target to build an object file
+library/src/RoomRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj
+.PHONY : library/src/RoomRepository.cpp.obj
+
+library/src/RoomRepository.i: library/src/RoomRepository.cpp.i
+
+.PHONY : library/src/RoomRepository.i
+
+# target to preprocess a source file
+library/src/RoomRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.i
+.PHONY : library/src/RoomRepository.cpp.i
+
+library/src/RoomRepository.s: library/src/RoomRepository.cpp.s
+
+.PHONY : library/src/RoomRepository.s
+
+# target to generate assembly for a file
+library/src/RoomRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.s
+.PHONY : library/src/RoomRepository.cpp.s
+
 library/src/RoomType.obj: library/src/RoomType.cpp.obj
 
 .PHONY : library/src/RoomType.obj
@@ -337,6 +418,33 @@ library/src/RoomType.s: library/src/RoomType.cpp.s
 library/src/RoomType.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomType.cpp.s
 .PHONY : library/src/RoomType.cpp.s
+
+library/src/RoomsManager.obj: library/src/RoomsManager.cpp.obj
+
+.PHONY : library/src/RoomsManager.obj
+
+# target to build an object file
+library/src/RoomsManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj
+.PHONY : library/src/RoomsManager.cpp.obj
+
+library/src/RoomsManager.i: library/src/RoomsManager.cpp.i
+
+.PHONY : library/src/RoomsManager.i
+
+# target to preprocess a source file
+library/src/RoomsManager.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.i
+.PHONY : library/src/RoomsManager.cpp.i
+
+library/src/RoomsManager.s: library/src/RoomsManager.cpp.s
+
+.PHONY : library/src/RoomsManager.s
+
+# target to generate assembly for a file
+library/src/RoomsManager.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjektX.dir\build.make CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.s
+.PHONY : library/src/RoomsManager.cpp.s
 
 program/src/main.obj: program/src/main.cpp.obj
 
@@ -377,6 +485,9 @@ help:
 	@echo ... library/src/Client.obj
 	@echo ... library/src/Client.i
 	@echo ... library/src/Client.s
+	@echo ... library/src/ClientsManager.obj
+	@echo ... library/src/ClientsManager.i
+	@echo ... library/src/ClientsManager.s
 	@echo ... library/src/ClientsRepository.obj
 	@echo ... library/src/ClientsRepository.i
 	@echo ... library/src/ClientsRepository.s
@@ -386,6 +497,9 @@ help:
 	@echo ... library/src/Person.obj
 	@echo ... library/src/Person.i
 	@echo ... library/src/Person.s
+	@echo ... library/src/Reception.obj
+	@echo ... library/src/Reception.i
+	@echo ... library/src/Reception.s
 	@echo ... library/src/Rent.obj
 	@echo ... library/src/Rent.i
 	@echo ... library/src/Rent.s
@@ -395,9 +509,15 @@ help:
 	@echo ... library/src/Room.obj
 	@echo ... library/src/Room.i
 	@echo ... library/src/Room.s
+	@echo ... library/src/RoomRepository.obj
+	@echo ... library/src/RoomRepository.i
+	@echo ... library/src/RoomRepository.s
 	@echo ... library/src/RoomType.obj
 	@echo ... library/src/RoomType.i
 	@echo ... library/src/RoomType.s
+	@echo ... library/src/RoomsManager.obj
+	@echo ... library/src/RoomsManager.i
+	@echo ... library/src/RoomsManager.s
 	@echo ... program/src/main.obj
 	@echo ... program/src/main.i
 	@echo ... program/src/main.s
