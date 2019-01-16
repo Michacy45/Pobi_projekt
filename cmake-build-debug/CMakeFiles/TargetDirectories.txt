@@ -1,3 +1,3 @@
-C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/ProjektX.dir
-C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Adam/Desktop/Pobi_projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir
+D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/rebuild_cache.dir

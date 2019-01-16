@@ -45,3 +45,12 @@ shared_ptr<Rent> RentsRepository::returnRentForClient(shared_ptr<Client> client)
         }
     }
 }
+
+bool RentsRepository::checkRent(shared_ptr<Room> room) {
+    for(auto it=rents.begin(); it!=rents.end(); it++)
+    {
+        if((*it)->getRoom()==room) return true;
+    }
+    return false;
+
+}

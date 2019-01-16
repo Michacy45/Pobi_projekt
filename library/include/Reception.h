@@ -5,7 +5,8 @@
 
 class Reception {
 private:
-    RentsRepository rentsRepository;
+    RentsRepository currentRentsRepository;
+    RentsRepository archiveRentsRepository;
 public:
     int getRentPrice(shared_ptr<Rent>);
     void createRent(shared_ptr<Client>,shared_ptr<Room>, int, int);
