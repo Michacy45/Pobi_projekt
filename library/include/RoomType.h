@@ -14,7 +14,7 @@ private:
     bool sniadanie;
 public:
     //RoomType();
-    ~RoomType();
+    //~RoomType();
     void changeType(char);
     int getPrice();
     bool getSniadanie();

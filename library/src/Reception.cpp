@@ -11,3 +11,6 @@ void Reception::createRent(shared_ptr<Client> client, shared_ptr<Room> room, int
     archiveRentsRepository.addRent(rent);
 }
 
+int Reception::getRentPrice(shared_ptr<Rent> rent) {
+    return rent->getRentPrice();
+}

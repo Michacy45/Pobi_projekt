@@ -13,7 +13,7 @@ private:
     RoomType roomType;
 public:
     Room(int,int,char);
-    ~Room();
+    //~Room();
     int getBasePrice();
     string getRoomInfo();
     bool getSniadanie();

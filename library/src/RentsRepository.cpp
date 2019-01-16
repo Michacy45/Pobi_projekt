@@ -31,9 +31,11 @@ shared_ptr<Rent> RentsRepository::returnRentForRoom(shared_ptr<Room> room) {
     {
         if((*it)->getRoom() == room)
         {
-            return (*it);
+            return *it;
         }
     }
+
+    throw logic_error ("Nie ma takiego wypozyczenia");
 }
 
 shared_ptr<Rent> RentsRepository::returnRentForClient(shared_ptr<Client> client) {
@@ -41,9 +43,11 @@ shared_ptr<Rent> RentsRepository::returnRentForClient(shared_ptr<Client> client)
     {
         if((*it)->getClient() == client)
         {
-            return (*it);
+            return *it;
         }
     }
+
+    throw logic_error ("Nie ma takiego wypozyczenia");
 }
 
 bool RentsRepository::checkRent(shared_ptr<Room> room) {
@@ -52,5 +56,4 @@ bool RentsRepository::checkRent(shared_ptr<Room> room) {
         if((*it)->getRoom()==room) return true;
     }
     return false;
-
 }

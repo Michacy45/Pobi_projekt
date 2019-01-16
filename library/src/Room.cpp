@@ -1,3 +1,6 @@
+
+#include <Room.h>
+
 #include "Room.h"
 
 Room::Room(int number, int floor, char type) {

@@ -1,11 +1,11 @@
 #include "Rent.h"
 #include "Client.h"
 
-Rent::Rent(shared_ptr<Client> client, shared_ptr<Room> room, int startDate, int endDate) {
+Rent::Rent(shared_ptr<Client> client, shared_ptr<Room> room, string sEndDate) {
     this->client=client;
     this->room=room;
-    this->startDate=startDate;
-    this->endDate=endDate;
+    this->startDate=boost::posix_time::second_clock::local_time();
+    endDate.boost::gregorian::date::date(sEndDate);
     shared_ptr<Rent> rent (this);
     this->client->addRent(rent);
 }
