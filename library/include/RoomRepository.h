@@ -13,5 +13,6 @@ public:
     void removeRoom(shared_ptr<Room>);
     bool checkRoom(shared_ptr<Room>);
     bool checkRoom(int);
+    shared_ptr<Room> getRoom(int);
 };
 #endif

@@ -4,27 +4,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/Client.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Client.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsManager.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsRepository.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/Company.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Company.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/Person.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Person.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/Reception.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Reception.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Rent.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/RentsRepository.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/Room.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Room.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomRepository.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomType.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomType.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomsManager.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.o"
-  "/home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir/program/src/main.cpp.o"
+  "D:/wspol/ProjektX/library/src/Client.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Client.cpp.obj"
+  "D:/wspol/ProjektX/library/src/ClientsManager.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/ClientsManager.cpp.obj"
+  "D:/wspol/ProjektX/library/src/ClientsRepository.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/ClientsRepository.cpp.obj"
+  "D:/wspol/ProjektX/library/src/Company.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Company.cpp.obj"
+  "D:/wspol/ProjektX/library/src/Person.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Person.cpp.obj"
+  "D:/wspol/ProjektX/library/src/Reception.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Reception.cpp.obj"
+  "D:/wspol/ProjektX/library/src/Rent.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Rent.cpp.obj"
+  "D:/wspol/ProjektX/library/src/RentsRepository.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RentsRepository.cpp.obj"
+  "D:/wspol/ProjektX/library/src/Room.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/Room.cpp.obj"
+  "D:/wspol/ProjektX/library/src/RoomRepository.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomRepository.cpp.obj"
+  "D:/wspol/ProjektX/library/src/RoomType.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomType.cpp.obj"
+  "D:/wspol/ProjektX/library/src/RoomsManager.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/library/src/RoomsManager.cpp.obj"
+  "D:/wspol/ProjektX/program/src/main.cpp" "D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir/program/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../library/include"
-  "../library/src"
-  "../program/src"
   )
 
 # Targets to which this target links.

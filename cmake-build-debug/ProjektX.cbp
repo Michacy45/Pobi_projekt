@@ -8,164 +8,156 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug"/>
+				<Option working_dir="D:/wspol/ProjektX/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjektX">
-				<Option output="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/ProjektX" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug"/>
+				<Option output="D:/wspol/ProjektX/cmake-build-debug/ProjektX.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/wspol/ProjektX/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/Pulpit/Projekt_Pobi/library/include"/>
-					<Add directory="/home/pobi/Pulpit/Projekt_Pobi/library/src"/>
-					<Add directory="/home/pobi/Pulpit/Projekt_Pobi/program/src"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/wspol/ProjektX/library/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjektX"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjektX"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjektX/fast">
-				<Option output="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/ProjektX" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug"/>
+				<Option output="D:/wspol/ProjektX/cmake-build-debug/ProjektX.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/wspol/ProjektX/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/Pulpit/Projekt_Pobi/library/include"/>
-					<Add directory="/home/pobi/Pulpit/Projekt_Pobi/library/src"/>
-					<Add directory="/home/pobi/Pulpit/Projekt_Pobi/program/src"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/wspol/ProjektX/library/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjektX/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjektX/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug"/>
+				<Option working_dir="D:/wspol/ProjektX/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/wspol/ProjektX/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/ProjektX/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/Client.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/Client.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/ClientsManager.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/ClientsManager.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/ClientsRepository.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/ClientsRepository.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/Company.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/Company.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/Person.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/Person.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/Reception.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/Reception.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/Rent.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/Rent.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/RentsRepository.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/RentsRepository.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/Room.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/Room.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/RoomRepository.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/RoomRepository.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/RoomType.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/RoomType.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/include/RoomsManager.h">
+		<Unit filename="D:/wspol/ProjektX/library/include/RoomsManager.h">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/Client.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/Client.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsManager.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/ClientsManager.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsRepository.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/ClientsRepository.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/Company.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/Company.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/Person.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/Person.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/Reception.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/Reception.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/Rent.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/RentsRepository.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/RentsRepository.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/Room.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/Room.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomRepository.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/RoomRepository.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomType.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/RoomType.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomsManager.cpp">
+		<Unit filename="D:/wspol/ProjektX/library/src/RoomsManager.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp">
+		<Unit filename="D:/wspol/ProjektX/program/src/main.cpp">
 			<Option target="ProjektX"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/CMakeLists.txt">
+		<Unit filename="D:/wspol/ProjektX/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

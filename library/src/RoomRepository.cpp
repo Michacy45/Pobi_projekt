@@ -49,3 +49,14 @@ bool RoomRepository::checkRoom(int roomNumber) {
     }
     return false;
 }
+
+shared_ptr<Room> RoomRepository::getRoom(int number) {
+    for(auto it=rooms.begin(); it!=rooms.end(); it++)
+    {
+        if((*it)->getNumber()==number)
+        {
+            return *it;
+        }
+    }
+    return nullptr;
+}

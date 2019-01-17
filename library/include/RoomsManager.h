@@ -14,5 +14,6 @@ public:
     void createRoom(char,int,int);
     void createRoom(shared_ptr<Room>);
     void destroyRoom(shared_ptr<Room>);
+    shared_ptr<Room> getRoom(int);
 };
 #endif

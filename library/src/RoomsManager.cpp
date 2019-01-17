@@ -2,7 +2,8 @@
 
 void RoomsManager::createRoom(char type, int number, int floor) {
     shared_ptr<Room> room (new Room(type,number,floor));
-    roomRepository.addRoom(room);
+    if(!checkRoom(number))
+        roomRepository.addRoom(room);
 }
 
 void RoomsManager::createRoom(shared_ptr<Room> room) {
@@ -23,4 +24,8 @@ void RoomsManager::changeRoomType(shared_ptr<Room> room, char type) {
 
 void RoomsManager::destroyRoom(shared_ptr<Room> room) {
     roomRepository.removeRoom(room);
+}
+
+shared_ptr<Room> RoomsManager::getRoom(int number) {
+    return roomRepository.getRoom(number);
 }

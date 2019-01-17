@@ -1,3 +1,3 @@
-/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/ProjektX.dir
-/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/ProjektX.dir
+D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/wspol/ProjektX/cmake-build-debug/CMakeFiles/rebuild_cache.dir

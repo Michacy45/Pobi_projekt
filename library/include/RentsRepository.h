@@ -12,6 +12,7 @@ public:
     shared_ptr<Rent> returnRentForRoom(shared_ptr<Room>);
     shared_ptr<Rent> returnRentForClient(shared_ptr<Client>);
     bool checkRent(shared_ptr<Room>);
+    shared_ptr<Rent> getRent(shared_ptr<Room>);
 };
 
 #endif

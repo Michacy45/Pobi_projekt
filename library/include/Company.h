@@ -9,7 +9,7 @@ class Company : public Client {
 private:
     string name;
 public:
-    Company(string, boost::uuids::uuid);
+    Company(string, /*boost::uuids::uuid*/ int);
     double getDiscount();
     string getClientInfo();
 };

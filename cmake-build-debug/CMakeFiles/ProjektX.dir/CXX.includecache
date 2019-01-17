@@ -20,6 +20,26 @@ Rent.h
 sstream
 -
 
+../library/include/ClientsManager.h
+ClientsRepository.h
+../library/include/ClientsRepository.h
+
+../library/include/ClientsRepository.h
+Client.h
+../library/include/Client.h
+
+../library/include/Company.h
+Client.h
+../library/include/Client.h
+
+../library/include/Person.h
+Client.h
+../library/include/Client.h
+
+../library/include/Reception.h
+RentsRepository.h
+../library/include/RentsRepository.h
+
 ../library/include/Rent.h
 Room.h
 ../library/include/Room.h
@@ -29,8 +49,6 @@ string
 -
 list
 -
-boost/date_time/posix_time/posix_time.hpp
-../library/include/boost/date_time/posix_time/posix_time.hpp
 boost/date_time/local_time/local_time.hpp
 ../library/include/boost/date_time/local_time/local_time.hpp
 boost/uuid/uuid_io.hpp
@@ -38,11 +56,23 @@ boost/uuid/uuid_io.hpp
 boost/uuid/random_generator.hpp
 -
 
+../library/include/RentsRepository.h
+Rent.h
+../library/include/Rent.h
+
 ../library/include/Room.h
 iostream
 -
 RoomType.h
 ../library/include/RoomType.h
+
+../library/include/RoomRepository.h
+Room.h
+../library/include/Room.h
+list
+-
+memory
+-
 
 ../library/include/RoomType.h
 iostream
@@ -52,9 +82,23 @@ string
 sstream
 -
 
-/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.cpp
-Rent.h
-/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.h
+../library/include/RoomsManager.h
+RoomRepository.h
+../library/include/RoomRepository.h
+
+D:/wspol/ProjektX/program/src/main.cpp
+iostream
+-
 Client.h
-/home/pobi/Pulpit/Projekt_Pobi/library/src/Client.h
+D:/wspol/ProjektX/program/src/Client.h
+Person.h
+D:/wspol/ProjektX/program/src/Person.h
+Company.h
+D:/wspol/ProjektX/program/src/Company.h
+ClientsManager.h
+D:/wspol/ProjektX/program/src/ClientsManager.h
+RoomsManager.h
+D:/wspol/ProjektX/program/src/RoomsManager.h
+Reception.h
+D:/wspol/ProjektX/program/src/Reception.h
 

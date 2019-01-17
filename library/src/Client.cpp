@@ -1,7 +1,8 @@
 #include "Client.h"
 
-Client::Client() {
-    ID = boost::uuids::random_generator()();
+Client::Client(int ID) {
+    //ID = boost::uuids::random_generator()();
+    this->ID=ID;
 }
 
 void Client::addRent(shared_ptr<Rent> rent) {
@@ -30,6 +31,10 @@ double Client::getDiscount() {
     return 1;
 }
 
-boost::uuids::uuid Client::getID() {
+/*boost::uuids::uuid Client::getID() {
+    return ID;
+}*/
+
+int Client::getID() {
     return ID;
 }
