@@ -1,33 +1,24 @@
-cmake_minimum_required(VERSION 3.12)
+#Minimalna wersja cmake konieczna do zbudowania tego projektu
+cmake_minimum_required(VERSION 3.4)
+
+#Parametry konfiguracyjne platformy programistycznej i flagi kompilatora
+set(CMAKE_CXX_COMPILER g++)#g++ jako kompilator C++
+set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+set(CMAKE_C_COMPILER gcc)#gcc jako kompilator C
+set(CMAKE_CXX_STANDARD 17)#Standard C++ 11, bez tego parametru g++ uĹźyje wartosci domyslnej. Dla g++ od wersji 6 jest to C++14
+set(CMAKE_CXX_STANDARD_REQUIRED ON)#Okreslony wyzej standard C++ jest wymagany
+
+#debugging
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_C_FLAGS_DEBUG "-g3 -gdwarf-4")
+set(CMAKE_CXX_FLAGS_DEBUG "-g3 -gdwarf-4")
+
 project(ProjektX)
+enable_language(CXX)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_VERBOSE_MAKEFILE TRUE)
 
-include_directories(library/include)
-
-add_executable(ProjektX
-        library/include/Client.h
-        library/include/ClientsManager.h
-        library/include/ClientsRepository.h
-        library/include/Company.h
-        library/include/Person.h
-        library/include/Reception.h
-        library/include/Rent.h
-        library/include/RentsRepository.h
-        library/include/Room.h
-        library/include/RoomRepository.h
-        library/include/RoomsManager.h
-        library/include/RoomType.h
-        library/src/Client.cpp
-        library/src/ClientsManager.cpp
-        library/src/ClientsRepository.cpp
-        library/src/Company.cpp
-        library/src/Person.cpp
-        library/src/Reception.cpp
-        library/src/Rent.cpp
-        library/src/RentsRepository.cpp
-        library/src/Room.cpp
-        library/src/RoomRepository.cpp
-        library/src/RoomsManager.cpp
-        library/src/RoomType.cpp
-        program/src/main.cpp)
+add_subdirectory(library)
+add_subdirectory(program)
+enable_testing()

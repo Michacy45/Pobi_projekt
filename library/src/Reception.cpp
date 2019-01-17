@@ -1,9 +1,9 @@
 #include "Reception.h"
 #include "Client.h"
 
-void Reception::createRent(shared_ptr<Client> client, shared_ptr<Room> room, int startDate, int endDate/*string endDate*/) {
+void Reception::createRent(shared_ptr<Client> client, shared_ptr<Room> room, string endDate) {
     if(!currentRentsRepository.checkRent(room)) {
-        shared_ptr<Rent> rent(new Rent(client, room,startDate,endDate));
+        shared_ptr<Rent> rent(new Rent(client, room, endDate));
         currentRentsRepository.addRent(rent);
         client->addRent(rent);
     }

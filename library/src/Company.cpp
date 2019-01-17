@@ -1,8 +1,7 @@
 #include "Company.h"
 
-Company::Company(string name, /*boost::uuids::uuid*/int ID) : Client(ID){
+Company::Company(string name) : Client(){
     this->name = name;
-    //ID = Client::getID();
 }
 
 double Company::getDiscount() {

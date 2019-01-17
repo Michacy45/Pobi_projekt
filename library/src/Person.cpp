@@ -1,9 +1,8 @@
 #include "Person.h"
 
-Person::Person(string firstName, string lastName, /*boost::uuids::uuid*/ int ID): Client(ID) {
+Person::Person(string firstName, string lastName): Client() {
     this->firstName = firstName;
     this->lastName = lastName;
-    //ID = Client::getID();
 }
 
 double Person::getDiscount() {

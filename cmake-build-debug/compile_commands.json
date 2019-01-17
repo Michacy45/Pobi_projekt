@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/Client.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Client.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/Client.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/ClientsManager.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsManager.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsManager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/ClientsRepository.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsRepository.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/ClientsRepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/Company.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Company.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/Company.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/Person.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Person.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/Person.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/Reception.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Reception.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/Reception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/Rent.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/RentsRepository.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/RentsRepository.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/RentsRepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/Room.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Room.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/Room.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/RoomRepository.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/RoomRepository.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomRepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/RoomsManager.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/RoomsManager.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomsManager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Library.dir/src/RoomType.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/RoomType.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/src/RoomType.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Test.dir/test/master.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/master.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/test/master.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/program",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/program/include -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp"
+}
+]

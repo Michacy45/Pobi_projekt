@@ -10,7 +10,7 @@ private:
     string firstName;
     string lastName;
 public:
-    Person(string, string, int/*boost::uuids::uuid*/);
+    Person(string, string);
     double getDiscount();
     string getClientInfo();
 };

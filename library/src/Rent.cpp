@@ -1,17 +1,13 @@
-#include <utility>
-
-#include <utility>
-
 #include "Rent.h"
 #include "Client.h"
 
-Rent::Rent(shared_ptr<Client> client, shared_ptr<Room> room, int startDate, int endDate) {
+Rent::Rent(shared_ptr<Client> client, shared_ptr<Room> room, string sEndDate) {
     this->client= client;
     this->room= room;
-    this->startDate=startDate;                                                 //boost::posix_time::second_clock::local_time();
-    this->endDate=endDate;
-    //endDate = boost::posix_time::time_from_string(sEndDate);
-    //shared_ptr<Rent> rent ;
+    this->startDate=boost::posix_time::second_clock::local_time();
+    endDate = boost::posix_time::time_from_string(sEndDate);
+    //this->endDate=endDate;
+    //shared_ptr<Rent> rent;
     //this->client->addRent(rent);
 }
 
@@ -24,7 +20,7 @@ shared_ptr<Room> Rent::getRoom() {
 }
 
 void Rent::changeEndDate(string endDate) {
-    //this->endDate=boost::posix_time::time_from_string(endDate);
+    this->endDate=boost::posix_time::time_from_string(endDate);
 }
 
 PosixTime Rent::getStartDate(){
@@ -40,5 +36,13 @@ double Rent::getRentPrice() {
 }
 
 int Rent::getDuration(){
-    return endDate-startDate;
+    boost::posix_time::time_duration diff = endDate-startDate;
+    ostringstream difference;
+    difference << diff;
+    string pom = difference.str();
+    string pom1 = pom.substr(0,2);
+    int hours = stoi(pom1);
+    int days = hours/24;
+
+    return days;
 }

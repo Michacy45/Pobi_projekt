@@ -1,7 +1,6 @@
 #ifndef PROJEKTX_CLIENT_H
 #define PROJEKTX_CLIENT_H
 
-//#include <boost>
 #include <iostream>
 #include <string>
 #include <memory>
@@ -10,17 +9,19 @@
 #include <sstream>
 using namespace std;
 
+typedef boost::uuids::uuid UUID;
+
 class Client{
 private:
-    //boost::uuids::uuid ID;
-    int ID;
+    UUID ID;
+    //int ID;
     list<shared_ptr<Rent>> rents;
 public:
-    Client(int);
+    Client();
     void addRent(shared_ptr<Rent>);
     virtual string getClientInfo()=0;
     virtual double getDiscount()=0;
-    int getID();
-    //boost::uuids::uuid getID();
+    //int getID();
+    UUID getID();
 };
 #endif

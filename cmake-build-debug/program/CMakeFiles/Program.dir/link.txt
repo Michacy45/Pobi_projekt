@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -g3 -gdwarf-4   CMakeFiles/Program.dir/src/main.cpp.o  -o Program ../library/libLibrary.a -lboost_date_time 

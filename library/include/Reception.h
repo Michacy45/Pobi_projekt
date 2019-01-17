@@ -9,7 +9,7 @@ private:
     RentsRepository archiveRentsRepository;
 public:
     int getRentPrice(shared_ptr<Rent>);
-    void createRent(shared_ptr<Client>,shared_ptr<Room>, int, int /*string*/);
+    void createRent(shared_ptr<Client>,shared_ptr<Room>, string);
     double endRent(shared_ptr<Rent>);
     shared_ptr<Rent> getRent(shared_ptr<Room>);
 
