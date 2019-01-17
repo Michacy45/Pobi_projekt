@@ -1,8 +1,9 @@
 #include "Person.h"
 
-Person::Person(string firstName, string lastName, int ID): Client(ID) {
+Person::Person(string firstName, string lastName, boost::uuids::uuid ID): Client() {
     this->firstName = firstName;
     this->lastName = lastName;
+    ID = Client::getID();
 }
 
 double Person::getDiscount() {
@@ -10,7 +11,7 @@ double Person::getDiscount() {
 }
 
 string Person::getClientInfo() {
-    ostringstream info;
+    stringstream info;
     info << "Klient: Imie i nazwisko: " << firstName << " " << lastName << Client::getClientInfo();
     return info.str();
 }

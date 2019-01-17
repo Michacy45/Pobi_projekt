@@ -25,7 +25,7 @@ void ClientsRepository::removeClient(shared_ptr<Client> client) {
     }
 }
 
-void ClientsRepository::removeClient(int clientID) {
+void ClientsRepository::removeClient(boost::uuids::uuid clientID) {
     for(auto it=clients.begin(); it!=clients.end(); it++)
     {
         if((*it)->getID() == clientID)

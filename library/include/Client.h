@@ -12,13 +12,13 @@ using namespace std;
 
 class Client{
 private:
-    int ID;
+    boost::uuids::uuid ID;
     list<shared_ptr<Rent>> rents;
 public:
-    Client(int);
+    Client();
     void addRent(shared_ptr<Rent>);
     virtual string getClientInfo()=0;
     virtual double getDiscount()=0;
-    int getID();
+    boost::uuids::uuid getID();
 };
 #endif

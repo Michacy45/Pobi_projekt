@@ -11,6 +11,6 @@ public:
     bool checkClient(shared_ptr<Client>);
     void addClient(shared_ptr<Client>);
     void removeClient(shared_ptr<Client>);
-    void removeClient(int);
+    void removeClient(boost::uuids::uuid);
 };
 #endif

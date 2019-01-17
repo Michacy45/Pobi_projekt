@@ -1,7 +1,8 @@
 #include "Company.h"
 
-Company::Company(string name, int ID) : Client(ID){
+Company::Company(string name, boost::uuids::uuid ID) : Client(){
     this->name = name;
+    ID = Client::getID();
 }
 
 double Company::getDiscount() {
@@ -9,7 +10,7 @@ double Company::getDiscount() {
 }
 
 string Company::getClientInfo() {
-    ostringstream info;
+    stringstream info;
 
     info << "Firma: Nazwa: " << name << " ID: " << Client::getClientInfo();
     return info.str();
