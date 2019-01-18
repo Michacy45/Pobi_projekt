@@ -11,7 +11,3 @@ bool ClientsManager::checkClient(shared_ptr<Client> client) {
 void ClientsManager::removeClient(shared_ptr<Client> client) {
     clientsRepository.removeClient(client);
 }
-
-/*void ClientsManager::removeClient(boost::uuids::uuid clientID) {
-    clientsRepository.removeClient(clientID);
-}*/

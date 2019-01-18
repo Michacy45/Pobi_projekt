@@ -20,9 +20,29 @@ Rent.h
 sstream
 -
 
-../library/include/ClientsRepository.h
+../library/include/Exception.h
+iostream
+-
+string
+-
+
+../library/include/ExceptionRent.h
+Exception.h
+../library/include/Exception.h
+
+../library/include/ExceptionRoom.h
+Exception.h
+../library/include/Exception.h
+
+../library/include/Person.h
 Client.h
 ../library/include/Client.h
+
+../library/include/Reception.h
+RentsRepository.h
+../library/include/RentsRepository.h
+ExceptionRent.h
+../library/include/ExceptionRent.h
 
 ../library/include/Rent.h
 Room.h
@@ -42,11 +62,23 @@ boost/uuid/uuid_io.hpp
 boost/uuid/random_generator.hpp
 ../library/include/boost/uuid/random_generator.hpp
 
+../library/include/RentsRepository.h
+Rent.h
+../library/include/Rent.h
+
 ../library/include/Room.h
 iostream
 -
 RoomType.h
 ../library/include/RoomType.h
+
+../library/include/RoomRepository.h
+Room.h
+../library/include/Room.h
+list
+-
+memory
+-
 
 ../library/include/RoomType.h
 iostream
@@ -56,9 +88,23 @@ string
 sstream
 -
 
-/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp
+../library/include/RoomsManager.h
+RoomRepository.h
+../library/include/RoomRepository.h
+ExceptionRoom.h
+../library/include/ExceptionRoom.h
+
+/home/pobi/Pulpit/Projekt_Pobi/library/test/ReceptionTest.cpp
 boost/test/unit_test.hpp
 -
-ClientsRepository.h
-/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepository.h
+Reception.h
+/home/pobi/Pulpit/Projekt_Pobi/library/test/Reception.h
+Person.h
+/home/pobi/Pulpit/Projekt_Pobi/library/test/Person.h
+
+/home/pobi/Pulpit/Projekt_Pobi/library/test/RoomsManagerTest.cpp
+boost/test/unit_test.hpp
+-
+RoomsManager.h
+/home/pobi/Pulpit/Projekt_Pobi/library/test/RoomsManager.h
 

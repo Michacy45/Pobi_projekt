@@ -9,12 +9,42 @@ library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/include/RoomType.h
 library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/test/ClientTest.cpp
 
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/Client.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/ClientsManager.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/ClientsRepository.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/Person.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/Rent.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/Room.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/include/RoomType.h
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o: ../library/test/ClientsManagerTest.cpp
+
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/include/Client.h
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/include/ClientsRepository.h
+library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/include/Person.h
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/include/Rent.h
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/include/RoomType.h
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/test/ClientsRepositoryTest.cpp
+
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/Client.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/ExceptionRent.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/Person.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/Reception.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/Rent.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/RentsRepository.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/Room.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/include/RoomType.h
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o: ../library/test/ReceptionTest.cpp
+
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/Client.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/Company.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/Person.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/Rent.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/RentsRepository.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/Room.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/include/RoomType.h
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o: ../library/test/RentsRepositoryTest.cpp
 
 library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o: ../library/include/RoomRepository.h
@@ -25,6 +55,8 @@ library/CMakeFiles/Test.dir/test/RoomTest.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Test.dir/test/RoomTest.cpp.o: ../library/include/RoomType.h
 library/CMakeFiles/Test.dir/test/RoomTest.cpp.o: ../library/test/RoomTest.cpp
 
+library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: ../library/include/ExceptionRoom.h
 library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: ../library/include/RoomRepository.h
 library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: ../library/include/RoomType.h

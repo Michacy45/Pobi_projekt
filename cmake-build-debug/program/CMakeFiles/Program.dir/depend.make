@@ -5,6 +5,9 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Client.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/ClientsManager.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/ClientsRepository.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Company.h
+program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Exception.h
+program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/ExceptionRent.h
+program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/ExceptionRoom.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Person.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Reception.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Rent.h

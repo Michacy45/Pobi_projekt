@@ -42,7 +42,9 @@ set(SOURCE_TEST_HUMAN_FILES
 		test/RoomRepositoryTest.cpp
 		test/RoomsManagerTest.cpp
 		test/ClientsRepositoryTest.cpp
-		)
+        test/ClientsManagerTest.cpp
+		test/RentsRepositoryTest.cpp
+		test/ReceptionTest.cpp)
 
 add_executable (Test ${SOURCE_TEST_HUMAN_FILES})
 

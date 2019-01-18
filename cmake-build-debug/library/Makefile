@@ -601,6 +601,33 @@ test/ClientTest.cpp.s:
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
 .PHONY : test/ClientTest.cpp.s
 
+test/ClientsManagerTest.o: test/ClientsManagerTest.cpp.o
+
+.PHONY : test/ClientsManagerTest.o
+
+# target to build an object file
+test/ClientsManagerTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o
+.PHONY : test/ClientsManagerTest.cpp.o
+
+test/ClientsManagerTest.i: test/ClientsManagerTest.cpp.i
+
+.PHONY : test/ClientsManagerTest.i
+
+# target to preprocess a source file
+test/ClientsManagerTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.i
+.PHONY : test/ClientsManagerTest.cpp.i
+
+test/ClientsManagerTest.s: test/ClientsManagerTest.cpp.s
+
+.PHONY : test/ClientsManagerTest.s
+
+# target to generate assembly for a file
+test/ClientsManagerTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.s
+.PHONY : test/ClientsManagerTest.cpp.s
+
 test/ClientsRepositoryTest.o: test/ClientsRepositoryTest.cpp.o
 
 .PHONY : test/ClientsRepositoryTest.o
@@ -627,6 +654,60 @@ test/ClientsRepositoryTest.s: test/ClientsRepositoryTest.cpp.s
 test/ClientsRepositoryTest.cpp.s:
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.s
 .PHONY : test/ClientsRepositoryTest.cpp.s
+
+test/ReceptionTest.o: test/ReceptionTest.cpp.o
+
+.PHONY : test/ReceptionTest.o
+
+# target to build an object file
+test/ReceptionTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o
+.PHONY : test/ReceptionTest.cpp.o
+
+test/ReceptionTest.i: test/ReceptionTest.cpp.i
+
+.PHONY : test/ReceptionTest.i
+
+# target to preprocess a source file
+test/ReceptionTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.i
+.PHONY : test/ReceptionTest.cpp.i
+
+test/ReceptionTest.s: test/ReceptionTest.cpp.s
+
+.PHONY : test/ReceptionTest.s
+
+# target to generate assembly for a file
+test/ReceptionTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.s
+.PHONY : test/ReceptionTest.cpp.s
+
+test/RentsRepositoryTest.o: test/RentsRepositoryTest.cpp.o
+
+.PHONY : test/RentsRepositoryTest.o
+
+# target to build an object file
+test/RentsRepositoryTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o
+.PHONY : test/RentsRepositoryTest.cpp.o
+
+test/RentsRepositoryTest.i: test/RentsRepositoryTest.cpp.i
+
+.PHONY : test/RentsRepositoryTest.i
+
+# target to preprocess a source file
+test/RentsRepositoryTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.i
+.PHONY : test/RentsRepositoryTest.cpp.i
+
+test/RentsRepositoryTest.s: test/RentsRepositoryTest.cpp.s
+
+.PHONY : test/RentsRepositoryTest.s
+
+# target to generate assembly for a file
+test/RentsRepositoryTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.s
+.PHONY : test/RentsRepositoryTest.cpp.s
 
 test/RoomRepositoryTest.o: test/RoomRepositoryTest.cpp.o
 
@@ -796,9 +877,18 @@ help:
 	@echo "... test/ClientTest.o"
 	@echo "... test/ClientTest.i"
 	@echo "... test/ClientTest.s"
+	@echo "... test/ClientsManagerTest.o"
+	@echo "... test/ClientsManagerTest.i"
+	@echo "... test/ClientsManagerTest.s"
 	@echo "... test/ClientsRepositoryTest.o"
 	@echo "... test/ClientsRepositoryTest.i"
 	@echo "... test/ClientsRepositoryTest.s"
+	@echo "... test/ReceptionTest.o"
+	@echo "... test/ReceptionTest.i"
+	@echo "... test/ReceptionTest.s"
+	@echo "... test/RentsRepositoryTest.o"
+	@echo "... test/RentsRepositoryTest.i"
+	@echo "... test/RentsRepositoryTest.s"
 	@echo "... test/RoomRepositoryTest.o"
 	@echo "... test/RoomRepositoryTest.i"
 	@echo "... test/RoomRepositoryTest.s"

@@ -26,18 +26,6 @@ void RentsRepository::removeRent(shared_ptr<Rent> rent) {
     }
 }
 
-shared_ptr<Rent> RentsRepository::returnRentForRoom(shared_ptr<Room> room) {
-    for(auto it=rents.begin(); it!=rents.end(); it++)
-    {
-        if((*it)->getRoom() == room)
-        {
-            return *it;
-        }
-    }
-
-    throw logic_error ("Nie ma takiego wypozyczenia");
-}
-
 shared_ptr<Rent> RentsRepository::returnRentForClient(shared_ptr<Client> client) {
     for(auto it=rents.begin(); it!=rents.end(); it++)
     {

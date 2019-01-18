@@ -2,6 +2,7 @@
 #define PROJEKTX_ROOMSMANAGER_H
 
 #include "RoomRepository.h"
+#include "ExceptionRoom.h"
 using namespace std;
 
 class RoomsManager {

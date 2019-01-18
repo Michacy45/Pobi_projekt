@@ -105,6 +105,21 @@
   "file": "/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp"
 },
 {
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsManagerTest.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsManagerTest.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/RentsRepositoryTest.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/test/RentsRepositoryTest.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library",
+  "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Test.dir/test/ReceptionTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/ReceptionTest.cpp",
+  "file": "/home/pobi/Pulpit/Projekt_Pobi/library/test/ReceptionTest.cpp"
+},
+{
   "directory": "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/program",
   "command": "/usr/bin/c++   -I/home/pobi/Pulpit/Projekt_Pobi/program/include -I/home/pobi/Pulpit/Projekt_Pobi/library/include  -Wall -Wextra -g3 -gdwarf-4   -std=gnu++1z -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp",
   "file": "/home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp"

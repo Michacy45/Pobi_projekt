@@ -1,5 +1,4 @@
 #include "RoomsManager.h"
-#include "ExceptionRoom.h"
 
 void RoomsManager::createRoom(int number, int floor, char type) {
 

@@ -1,6 +1,5 @@
 #include "Reception.h"
 #include "Client.h"
-#include "ExceptionRent.h"
 
 void Reception::createRent(shared_ptr<Client> client, shared_ptr<Room> room, string endDate) {
     if(client == nullptr) throw ExceptionRent("client nullem");
@@ -17,7 +16,7 @@ double Reception::endRent(shared_ptr<Rent> rent) {
     return getRentPrice(rent);
 }
 
-int Reception::getRentPrice(shared_ptr<Rent> rent) {
+double Reception::getRentPrice(shared_ptr<Rent> rent) {
     return rent->getRentPrice();
 }
 

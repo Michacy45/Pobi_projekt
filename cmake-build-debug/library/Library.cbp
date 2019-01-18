@@ -172,7 +172,16 @@
 		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientTest.cpp">
 			<Option target="Test"/>
 		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsManagerTest.cpp">
+			<Option target="Test"/>
+		</Unit>
 		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/test/ReceptionTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/test/RentsRepositoryTest.cpp">
 			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/home/pobi/Pulpit/Projekt_Pobi/library/test/RoomRepositoryTest.cpp">

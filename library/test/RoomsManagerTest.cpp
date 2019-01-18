@@ -29,4 +29,15 @@ BOOST_AUTO_TEST_SUITE(RoomManagerTestSuite)
         BOOST_REQUIRE_EQUAL(roomsmanager.getType(room1), 'A');
     }
 
+    BOOST_AUTO_TEST_CASE(RoomManagerException) {
+
+        RoomsManager roomsmanager;
+
+        BOOST_CHECK_THROW(roomsmanager.createRoom(-100, 5, 'A'),ExceptionRoom);
+        BOOST_CHECK_THROW(roomsmanager.createRoom(100, -5, 'A'),ExceptionRoom);
+
+
+
+    }
+
 BOOST_AUTO_TEST_SUITE_END()

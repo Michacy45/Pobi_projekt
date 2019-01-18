@@ -9,13 +9,43 @@ library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
  ../library/include/Room.h
  ../library/include/RoomType.h
  /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientTest.cpp
+library/CMakeFiles/Test.dir/test/ClientsManagerTest.cpp.o
+ ../library/include/Client.h
+ ../library/include/ClientsManager.h
+ ../library/include/ClientsRepository.h
+ ../library/include/Person.h
+ ../library/include/Rent.h
+ ../library/include/Room.h
+ ../library/include/RoomType.h
+ /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsManagerTest.cpp
 library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o
  ../library/include/Client.h
  ../library/include/ClientsRepository.h
+ ../library/include/Person.h
  ../library/include/Rent.h
  ../library/include/Room.h
  ../library/include/RoomType.h
  /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp
+library/CMakeFiles/Test.dir/test/ReceptionTest.cpp.o
+ ../library/include/Client.h
+ ../library/include/Exception.h
+ ../library/include/ExceptionRent.h
+ ../library/include/Person.h
+ ../library/include/Reception.h
+ ../library/include/Rent.h
+ ../library/include/RentsRepository.h
+ ../library/include/Room.h
+ ../library/include/RoomType.h
+ /home/pobi/Pulpit/Projekt_Pobi/library/test/ReceptionTest.cpp
+library/CMakeFiles/Test.dir/test/RentsRepositoryTest.cpp.o
+ ../library/include/Client.h
+ ../library/include/Company.h
+ ../library/include/Person.h
+ ../library/include/Rent.h
+ ../library/include/RentsRepository.h
+ ../library/include/Room.h
+ ../library/include/RoomType.h
+ /home/pobi/Pulpit/Projekt_Pobi/library/test/RentsRepositoryTest.cpp
 library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o
  ../library/include/Room.h
  ../library/include/RoomRepository.h
@@ -26,6 +56,8 @@ library/CMakeFiles/Test.dir/test/RoomTest.cpp.o
  ../library/include/RoomType.h
  /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomTest.cpp
 library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o
+ ../library/include/Exception.h
+ ../library/include/ExceptionRoom.h
  ../library/include/Room.h
  ../library/include/RoomRepository.h
  ../library/include/RoomType.h

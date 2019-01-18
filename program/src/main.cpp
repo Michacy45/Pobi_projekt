@@ -21,12 +21,10 @@ int main(){
     roomsManager.createRoom(69,3,'B');
     Reception reception;
     cout<<roomsManager.getRoom(69)->getBasePrice()<<endl;
-    //Rent rent(client1,roomsManager.getRoom(69),1,4);
     reception.createRent(client1,roomsManager.getRoom(69), "2018-01-20 23:59:59.000");
     cout<<roomsManager.getRoom(69)->getBasePrice()<<endl;
 
     cout<<reception.getRentPrice(reception.getRent(roomsManager.getRoom(69)))<<endl;
-    cout<<"tescik"<<endl;
     cout<<clientsManager.checkClient(client1)<<endl;
     cout<<client1->getClientInfo()<<endl;
     cout<<client2->getClientInfo()<<endl;

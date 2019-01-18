@@ -32,6 +32,20 @@ Client.h
 Client.h
 ../library/include/Client.h
 
+../library/include/Exception.h
+iostream
+-
+string
+-
+
+../library/include/ExceptionRent.h
+Exception.h
+../library/include/Exception.h
+
+../library/include/ExceptionRoom.h
+Exception.h
+../library/include/Exception.h
+
 ../library/include/Person.h
 Client.h
 ../library/include/Client.h
@@ -39,6 +53,8 @@ Client.h
 ../library/include/Reception.h
 RentsRepository.h
 ../library/include/RentsRepository.h
+ExceptionRent.h
+../library/include/ExceptionRent.h
 
 ../library/include/Rent.h
 Room.h
@@ -87,6 +103,8 @@ sstream
 ../library/include/RoomsManager.h
 RoomRepository.h
 ../library/include/RoomRepository.h
+ExceptionRoom.h
+../library/include/ExceptionRoom.h
 
 /home/pobi/Pulpit/Projekt_Pobi/program/src/main.cpp
 iostream
