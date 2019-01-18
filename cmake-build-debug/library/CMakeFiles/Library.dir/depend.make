@@ -29,6 +29,17 @@ library/CMakeFiles/Library.dir/src/Company.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Library.dir/src/Company.cpp.o: ../library/include/RoomType.h
 library/CMakeFiles/Library.dir/src/Company.cpp.o: ../library/src/Company.cpp
 
+library/CMakeFiles/Library.dir/src/Exception.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Library.dir/src/Exception.cpp.o: ../library/src/Exception.cpp
+
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o: ../library/include/ExceptionRent.h
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o: ../library/src/ExceptionRent.cpp
+
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o: ../library/include/ExceptionRoom.h
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o: ../library/src/ExceptionRoom.cpp
+
 library/CMakeFiles/Library.dir/src/Person.cpp.o: ../library/include/Client.h
 library/CMakeFiles/Library.dir/src/Person.cpp.o: ../library/include/Person.h
 library/CMakeFiles/Library.dir/src/Person.cpp.o: ../library/include/Rent.h
@@ -37,6 +48,8 @@ library/CMakeFiles/Library.dir/src/Person.cpp.o: ../library/include/RoomType.h
 library/CMakeFiles/Library.dir/src/Person.cpp.o: ../library/src/Person.cpp
 
 library/CMakeFiles/Library.dir/src/Reception.cpp.o: ../library/include/Client.h
+library/CMakeFiles/Library.dir/src/Reception.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Library.dir/src/Reception.cpp.o: ../library/include/ExceptionRent.h
 library/CMakeFiles/Library.dir/src/Reception.cpp.o: ../library/include/Reception.h
 library/CMakeFiles/Library.dir/src/Reception.cpp.o: ../library/include/Rent.h
 library/CMakeFiles/Library.dir/src/Reception.cpp.o: ../library/include/RentsRepository.h
@@ -68,6 +81,8 @@ library/CMakeFiles/Library.dir/src/RoomRepository.cpp.o: ../library/src/RoomRepo
 library/CMakeFiles/Library.dir/src/RoomType.cpp.o: ../library/include/RoomType.h
 library/CMakeFiles/Library.dir/src/RoomType.cpp.o: ../library/src/RoomType.cpp
 
+library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o: ../library/include/Exception.h
+library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o: ../library/include/ExceptionRoom.h
 library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o: ../library/include/Room.h
 library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o: ../library/include/RoomRepository.h
 library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o: ../library/include/RoomType.h

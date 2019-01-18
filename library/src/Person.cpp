@@ -14,3 +14,11 @@ string Person::getClientInfo() {
     info << "Klient: Imie i nazwisko: " << firstName << " " << lastName << Client::getClientInfo();
     return info.str();
 }
+
+string Person::getName() {
+    return firstName;
+}
+
+string Person::getLastName() {
+    return lastName;
+}

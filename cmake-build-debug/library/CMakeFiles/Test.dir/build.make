@@ -73,19 +73,94 @@ library/CMakeFiles/Test.dir/test/master.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/master.cpp.s"
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/test/master.cpp -o CMakeFiles/Test.dir/test/master.cpp.s
 
+library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/test/ClientTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Test.dir/test/ClientTest.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/ClientTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientTest.cpp
+
+library/CMakeFiles/Test.dir/test/ClientTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/ClientTest.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientTest.cpp > CMakeFiles/Test.dir/test/ClientTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/ClientTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/ClientTest.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientTest.cpp -o CMakeFiles/Test.dir/test/ClientTest.cpp.s
+
+library/CMakeFiles/Test.dir/test/RoomTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/RoomTest.cpp.o: ../library/test/RoomTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/Test.dir/test/RoomTest.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/RoomTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomTest.cpp
+
+library/CMakeFiles/Test.dir/test/RoomTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/RoomTest.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomTest.cpp > CMakeFiles/Test.dir/test/RoomTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/RoomTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/RoomTest.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomTest.cpp -o CMakeFiles/Test.dir/test/RoomTest.cpp.s
+
+library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o: ../library/test/RoomRepositoryTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomRepositoryTest.cpp
+
+library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomRepositoryTest.cpp > CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomRepositoryTest.cpp -o CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.s
+
+library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o: ../library/test/RoomsManagerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomsManagerTest.cpp
+
+library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomsManagerTest.cpp > CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/test/RoomsManagerTest.cpp -o CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.s
+
+library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o: ../library/test/ClientsRepositoryTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp
+
+library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp > CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp -o CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.s
+
 # Object files for target Test
 Test_OBJECTS = \
-"CMakeFiles/Test.dir/test/master.cpp.o"
+"CMakeFiles/Test.dir/test/master.cpp.o" \
+"CMakeFiles/Test.dir/test/ClientTest.cpp.o" \
+"CMakeFiles/Test.dir/test/RoomTest.cpp.o" \
+"CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o" \
+"CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o" \
+"CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
 
 library/Test: library/CMakeFiles/Test.dir/test/master.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/RoomTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o
 library/Test: library/CMakeFiles/Test.dir/build.make
 library/Test: library/libLibrary.a
 library/Test: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 library/Test: library/CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Test"
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

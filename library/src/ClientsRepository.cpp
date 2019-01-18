@@ -25,16 +25,6 @@ void ClientsRepository::removeClient(shared_ptr<Client> client) {
     }
 }
 
-/*void ClientsRepository::removeClient(boost::uuids::uuid clientID) {
-    for(auto it=clients.begin(); it!=clients.end(); it++)
-    {
-        if((*it)->getID() == clientID)
-        {
-            it=clients.erase(it);
-        }
-    }
-}*/
-
 string ClientsRepository::returnAllClientInfo() {
     ostringstream info;
     for(auto it=clients.begin(); it!=clients.end(); it++) {

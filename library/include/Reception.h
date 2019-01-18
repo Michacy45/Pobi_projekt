@@ -13,6 +13,5 @@ public:
     double endRent(shared_ptr<Rent>);
     shared_ptr<Rent> getRent(shared_ptr<Room>);
 
-
 };
 #endif

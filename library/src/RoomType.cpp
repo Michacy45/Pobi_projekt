@@ -1,8 +1,5 @@
 #include "RoomType.h"
 
-/*RoomType::RoomType(char type) {
-    changeType(type);
-}*/
 
 void RoomType::changeType(char type) {
     this->type=type;
@@ -39,8 +36,10 @@ bool RoomType::getSniadanie() {
 
 string RoomType::getRoomTypeInfo() {
     ostringstream sout;
-    //costam
+    sout << " , Klasa pokoju: " << type;
     return sout.str();
 }
 
-
+char RoomType::getType() {
+    return type;
+}

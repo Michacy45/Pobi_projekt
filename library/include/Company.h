@@ -12,5 +12,6 @@ public:
     Company(string);
     double getDiscount();
     string getClientInfo();
+    string getName();
 };
 #endif

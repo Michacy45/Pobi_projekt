@@ -13,12 +13,12 @@ private:
     RoomType roomType;
 public:
     Room(int,int,char);
-    //~Room();
     int getBasePrice();
     string getRoomInfo();
     bool getSniadanie();
     void changeRoomType(char);
     int getNumber();
+    char getType();
 };
 
-#endif //PROJEKTX_ROOM_H
+#endif

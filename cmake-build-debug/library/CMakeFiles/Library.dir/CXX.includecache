@@ -6,55 +6,29 @@
 
 #IncludeRegexTransform: 
 
-../library/include/Client.h
+../library/include/Exception.h
 iostream
 -
 string
 -
-memory
--
-list
--
-Rent.h
-../library/include/Rent.h
-sstream
--
 
-../library/include/Rent.h
-Room.h
-../library/include/Room.h
-memory
--
-string
--
-list
--
-boost/date_time/posix_time/posix_time.hpp
-../library/include/boost/date_time/posix_time/posix_time.hpp
-boost/date_time/local_time/local_time.hpp
-../library/include/boost/date_time/local_time/local_time.hpp
-boost/uuid/uuid_io.hpp
-../library/include/boost/uuid/uuid_io.hpp
-boost/uuid/random_generator.hpp
-../library/include/boost/uuid/random_generator.hpp
+../library/include/ExceptionRent.h
+Exception.h
+../library/include/Exception.h
 
-../library/include/Room.h
-iostream
--
-RoomType.h
-../library/include/RoomType.h
+../library/include/ExceptionRoom.h
+Exception.h
+../library/include/Exception.h
 
-../library/include/RoomType.h
-iostream
--
-string
--
-sstream
--
+/home/pobi/Pulpit/Projekt_Pobi/library/src/Exception.cpp
+Exception.h
+/home/pobi/Pulpit/Projekt_Pobi/library/src/Exception.h
 
-/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.cpp
-Rent.h
-/home/pobi/Pulpit/Projekt_Pobi/library/src/Rent.h
-Client.h
-/home/pobi/Pulpit/Projekt_Pobi/library/src/Client.h
+/home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRent.cpp
+ExceptionRent.h
+/home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRent.h
+
+/home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRoom.cpp
+ExceptionRoom.h
+/home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRoom.h
 

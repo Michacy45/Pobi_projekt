@@ -29,6 +29,17 @@ library/CMakeFiles/Library.dir/src/Company.cpp.o
  ../library/include/Room.h
  ../library/include/RoomType.h
  /home/pobi/Pulpit/Projekt_Pobi/library/src/Company.cpp
+library/CMakeFiles/Library.dir/src/Exception.cpp.o
+ ../library/include/Exception.h
+ /home/pobi/Pulpit/Projekt_Pobi/library/src/Exception.cpp
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o
+ ../library/include/Exception.h
+ ../library/include/ExceptionRent.h
+ /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRent.cpp
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o
+ ../library/include/Exception.h
+ ../library/include/ExceptionRoom.h
+ /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRoom.cpp
 library/CMakeFiles/Library.dir/src/Person.cpp.o
  ../library/include/Client.h
  ../library/include/Person.h
@@ -38,6 +49,8 @@ library/CMakeFiles/Library.dir/src/Person.cpp.o
  /home/pobi/Pulpit/Projekt_Pobi/library/src/Person.cpp
 library/CMakeFiles/Library.dir/src/Reception.cpp.o
  ../library/include/Client.h
+ ../library/include/Exception.h
+ ../library/include/ExceptionRent.h
  ../library/include/Reception.h
  ../library/include/Rent.h
  ../library/include/RentsRepository.h
@@ -69,6 +82,8 @@ library/CMakeFiles/Library.dir/src/RoomType.cpp.o
  ../library/include/RoomType.h
  /home/pobi/Pulpit/Projekt_Pobi/library/src/RoomType.cpp
 library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o
+ ../library/include/Exception.h
+ ../library/include/ExceptionRoom.h
  ../library/include/Room.h
  ../library/include/RoomRepository.h
  ../library/include/RoomType.h

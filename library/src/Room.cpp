@@ -1,6 +1,3 @@
-
-#include <Room.h>
-
 #include "Room.h"
 
 Room::Room(int number, int floor, char type) {
@@ -15,8 +12,7 @@ int Room::getBasePrice() {
 
 string Room::getRoomInfo() {
     ostringstream sout;
-    //costam
-    sout<<roomType.getRoomTypeInfo();
+    sout<< "Pokój -> Numer: "<< number << " , Piętro: "<< floor <<" "<<roomType.getRoomTypeInfo();
     return sout.str();
 }
 
@@ -30,4 +26,8 @@ void Room::changeRoomType(char type) {
 
 int Room::getNumber() {
     return number;
+}
+
+char Room::getType() {
+    return roomType.getType();
 }

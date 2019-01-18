@@ -277,6 +277,87 @@ src/Company.cpp.s:
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Company.cpp.s
 .PHONY : src/Company.cpp.s
 
+src/Exception.o: src/Exception.cpp.o
+
+.PHONY : src/Exception.o
+
+# target to build an object file
+src/Exception.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Exception.cpp.o
+.PHONY : src/Exception.cpp.o
+
+src/Exception.i: src/Exception.cpp.i
+
+.PHONY : src/Exception.i
+
+# target to preprocess a source file
+src/Exception.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Exception.cpp.i
+.PHONY : src/Exception.cpp.i
+
+src/Exception.s: src/Exception.cpp.s
+
+.PHONY : src/Exception.s
+
+# target to generate assembly for a file
+src/Exception.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Exception.cpp.s
+.PHONY : src/Exception.cpp.s
+
+src/ExceptionRent.o: src/ExceptionRent.cpp.o
+
+.PHONY : src/ExceptionRent.o
+
+# target to build an object file
+src/ExceptionRent.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o
+.PHONY : src/ExceptionRent.cpp.o
+
+src/ExceptionRent.i: src/ExceptionRent.cpp.i
+
+.PHONY : src/ExceptionRent.i
+
+# target to preprocess a source file
+src/ExceptionRent.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.i
+.PHONY : src/ExceptionRent.cpp.i
+
+src/ExceptionRent.s: src/ExceptionRent.cpp.s
+
+.PHONY : src/ExceptionRent.s
+
+# target to generate assembly for a file
+src/ExceptionRent.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.s
+.PHONY : src/ExceptionRent.cpp.s
+
+src/ExceptionRoom.o: src/ExceptionRoom.cpp.o
+
+.PHONY : src/ExceptionRoom.o
+
+# target to build an object file
+src/ExceptionRoom.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o
+.PHONY : src/ExceptionRoom.cpp.o
+
+src/ExceptionRoom.i: src/ExceptionRoom.cpp.i
+
+.PHONY : src/ExceptionRoom.i
+
+# target to preprocess a source file
+src/ExceptionRoom.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.i
+.PHONY : src/ExceptionRoom.cpp.i
+
+src/ExceptionRoom.s: src/ExceptionRoom.cpp.s
+
+.PHONY : src/ExceptionRoom.s
+
+# target to generate assembly for a file
+src/ExceptionRoom.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.s
+.PHONY : src/ExceptionRoom.cpp.s
+
 src/Person.o: src/Person.cpp.o
 
 .PHONY : src/Person.o
@@ -493,6 +574,141 @@ src/RoomsManager.cpp.s:
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RoomsManager.cpp.s
 .PHONY : src/RoomsManager.cpp.s
 
+test/ClientTest.o: test/ClientTest.cpp.o
+
+.PHONY : test/ClientTest.o
+
+# target to build an object file
+test/ClientTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
+.PHONY : test/ClientTest.cpp.o
+
+test/ClientTest.i: test/ClientTest.cpp.i
+
+.PHONY : test/ClientTest.i
+
+# target to preprocess a source file
+test/ClientTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.i
+.PHONY : test/ClientTest.cpp.i
+
+test/ClientTest.s: test/ClientTest.cpp.s
+
+.PHONY : test/ClientTest.s
+
+# target to generate assembly for a file
+test/ClientTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
+.PHONY : test/ClientTest.cpp.s
+
+test/ClientsRepositoryTest.o: test/ClientsRepositoryTest.cpp.o
+
+.PHONY : test/ClientsRepositoryTest.o
+
+# target to build an object file
+test/ClientsRepositoryTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o
+.PHONY : test/ClientsRepositoryTest.cpp.o
+
+test/ClientsRepositoryTest.i: test/ClientsRepositoryTest.cpp.i
+
+.PHONY : test/ClientsRepositoryTest.i
+
+# target to preprocess a source file
+test/ClientsRepositoryTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.i
+.PHONY : test/ClientsRepositoryTest.cpp.i
+
+test/ClientsRepositoryTest.s: test/ClientsRepositoryTest.cpp.s
+
+.PHONY : test/ClientsRepositoryTest.s
+
+# target to generate assembly for a file
+test/ClientsRepositoryTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.s
+.PHONY : test/ClientsRepositoryTest.cpp.s
+
+test/RoomRepositoryTest.o: test/RoomRepositoryTest.cpp.o
+
+.PHONY : test/RoomRepositoryTest.o
+
+# target to build an object file
+test/RoomRepositoryTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o
+.PHONY : test/RoomRepositoryTest.cpp.o
+
+test/RoomRepositoryTest.i: test/RoomRepositoryTest.cpp.i
+
+.PHONY : test/RoomRepositoryTest.i
+
+# target to preprocess a source file
+test/RoomRepositoryTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.i
+.PHONY : test/RoomRepositoryTest.cpp.i
+
+test/RoomRepositoryTest.s: test/RoomRepositoryTest.cpp.s
+
+.PHONY : test/RoomRepositoryTest.s
+
+# target to generate assembly for a file
+test/RoomRepositoryTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.s
+.PHONY : test/RoomRepositoryTest.cpp.s
+
+test/RoomTest.o: test/RoomTest.cpp.o
+
+.PHONY : test/RoomTest.o
+
+# target to build an object file
+test/RoomTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomTest.cpp.o
+.PHONY : test/RoomTest.cpp.o
+
+test/RoomTest.i: test/RoomTest.cpp.i
+
+.PHONY : test/RoomTest.i
+
+# target to preprocess a source file
+test/RoomTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomTest.cpp.i
+.PHONY : test/RoomTest.cpp.i
+
+test/RoomTest.s: test/RoomTest.cpp.s
+
+.PHONY : test/RoomTest.s
+
+# target to generate assembly for a file
+test/RoomTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomTest.cpp.s
+.PHONY : test/RoomTest.cpp.s
+
+test/RoomsManagerTest.o: test/RoomsManagerTest.cpp.o
+
+.PHONY : test/RoomsManagerTest.o
+
+# target to build an object file
+test/RoomsManagerTest.cpp.o:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o
+.PHONY : test/RoomsManagerTest.cpp.o
+
+test/RoomsManagerTest.i: test/RoomsManagerTest.cpp.i
+
+.PHONY : test/RoomsManagerTest.i
+
+# target to preprocess a source file
+test/RoomsManagerTest.cpp.i:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.i
+.PHONY : test/RoomsManagerTest.cpp.i
+
+test/RoomsManagerTest.s: test/RoomsManagerTest.cpp.s
+
+.PHONY : test/RoomsManagerTest.s
+
+# target to generate assembly for a file
+test/RoomsManagerTest.cpp.s:
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.s
+.PHONY : test/RoomsManagerTest.cpp.s
+
 test/master.o: test/master.cpp.o
 
 .PHONY : test/master.o
@@ -544,6 +760,15 @@ help:
 	@echo "... src/Company.o"
 	@echo "... src/Company.i"
 	@echo "... src/Company.s"
+	@echo "... src/Exception.o"
+	@echo "... src/Exception.i"
+	@echo "... src/Exception.s"
+	@echo "... src/ExceptionRent.o"
+	@echo "... src/ExceptionRent.i"
+	@echo "... src/ExceptionRent.s"
+	@echo "... src/ExceptionRoom.o"
+	@echo "... src/ExceptionRoom.i"
+	@echo "... src/ExceptionRoom.s"
 	@echo "... src/Person.o"
 	@echo "... src/Person.i"
 	@echo "... src/Person.s"
@@ -568,6 +793,21 @@ help:
 	@echo "... src/RoomsManager.o"
 	@echo "... src/RoomsManager.i"
 	@echo "... src/RoomsManager.s"
+	@echo "... test/ClientTest.o"
+	@echo "... test/ClientTest.i"
+	@echo "... test/ClientTest.s"
+	@echo "... test/ClientsRepositoryTest.o"
+	@echo "... test/ClientsRepositoryTest.i"
+	@echo "... test/ClientsRepositoryTest.s"
+	@echo "... test/RoomRepositoryTest.o"
+	@echo "... test/RoomRepositoryTest.i"
+	@echo "... test/RoomRepositoryTest.s"
+	@echo "... test/RoomTest.o"
+	@echo "... test/RoomTest.i"
+	@echo "... test/RoomTest.s"
+	@echo "... test/RoomsManagerTest.o"
+	@echo "... test/RoomsManagerTest.i"
+	@echo "... test/RoomsManagerTest.s"
 	@echo "... test/master.o"
 	@echo "... test/master.i"
 	@echo "... test/master.s"

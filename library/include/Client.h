@@ -14,14 +14,10 @@ typedef boost::uuids::uuid UUID;
 class Client{
 private:
     UUID ID;
-    //int ID;
-    list<shared_ptr<Rent>> rents;
 public:
     Client();
-    void addRent(shared_ptr<Rent>);
     virtual string getClientInfo()=0;
     virtual double getDiscount()=0;
-    //int getID();
     UUID getID();
 };
 #endif

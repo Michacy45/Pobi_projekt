@@ -216,6 +216,45 @@ library/CMakeFiles/Library.dir/src/RoomType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/RoomType.cpp.s"
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/src/RoomType.cpp -o CMakeFiles/Library.dir/src/RoomType.cpp.s
 
+library/CMakeFiles/Library.dir/src/Exception.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/Exception.cpp.o: ../library/src/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/src/Exception.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Exception.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/Exception.cpp
+
+library/CMakeFiles/Library.dir/src/Exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Exception.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/src/Exception.cpp > CMakeFiles/Library.dir/src/Exception.cpp.i
+
+library/CMakeFiles/Library.dir/src/Exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Exception.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/src/Exception.cpp -o CMakeFiles/Library.dir/src/Exception.cpp.s
+
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o: ../library/src/ExceptionRent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/ExceptionRent.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRent.cpp
+
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/ExceptionRent.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRent.cpp > CMakeFiles/Library.dir/src/ExceptionRent.cpp.i
+
+library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/ExceptionRent.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRent.cpp -o CMakeFiles/Library.dir/src/ExceptionRent.cpp.s
+
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o: ../library/src/ExceptionRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o -c /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRoom.cpp
+
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/ExceptionRoom.cpp.i"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRoom.cpp > CMakeFiles/Library.dir/src/ExceptionRoom.cpp.i
+
+library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/ExceptionRoom.cpp.s"
+	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/Projekt_Pobi/library/src/ExceptionRoom.cpp -o CMakeFiles/Library.dir/src/ExceptionRoom.cpp.s
+
 # Object files for target Library
 Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/Client.cpp.o" \
@@ -229,7 +268,10 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/Room.cpp.o" \
 "CMakeFiles/Library.dir/src/RoomRepository.cpp.o" \
 "CMakeFiles/Library.dir/src/RoomsManager.cpp.o" \
-"CMakeFiles/Library.dir/src/RoomType.cpp.o"
+"CMakeFiles/Library.dir/src/RoomType.cpp.o" \
+"CMakeFiles/Library.dir/src/Exception.cpp.o" \
+"CMakeFiles/Library.dir/src/ExceptionRent.cpp.o" \
+"CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -246,9 +288,12 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/Room.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/RoomRepository.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/RoomsManager.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/RoomType.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/Exception.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/ExceptionRent.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libLibrary.a"
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
 	cd /home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 

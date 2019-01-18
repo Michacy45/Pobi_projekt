@@ -14,3 +14,7 @@ string Company::getClientInfo() {
     info << "Firma: Nazwa: " << name << " ID: " << Client::getClientInfo();
     return info.str();
 }
+
+string Company::getName() {
+    return name;
+}

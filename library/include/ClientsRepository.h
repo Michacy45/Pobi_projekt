@@ -10,7 +10,6 @@ private:
 public:
     void addClient(shared_ptr<Client>);
     void removeClient(shared_ptr<Client>);
-//    void removeClient(boost::uuids::uuid);
     string returnAllClientInfo();
     bool checkClient(shared_ptr<Client>);
 };

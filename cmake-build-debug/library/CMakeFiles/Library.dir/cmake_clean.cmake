@@ -11,6 +11,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/RoomRepository.cpp.o"
   "CMakeFiles/Library.dir/src/RoomsManager.cpp.o"
   "CMakeFiles/Library.dir/src/RoomType.cpp.o"
+  "CMakeFiles/Library.dir/src/Exception.cpp.o"
+  "CMakeFiles/Library.dir/src/ExceptionRent.cpp.o"
+  "CMakeFiles/Library.dir/src/ExceptionRoom.cpp.o"
   "libLibrary.pdb"
   "libLibrary.a"
 )

@@ -6,9 +6,6 @@ Rent::Rent(shared_ptr<Client> client, shared_ptr<Room> room, string sEndDate) {
     this->room= room;
     this->startDate=boost::posix_time::second_clock::local_time();
     endDate = boost::posix_time::time_from_string(sEndDate);
-    //this->endDate=endDate;
-    //shared_ptr<Rent> rent;
-    //this->client->addRent(rent);
 }
 
 shared_ptr<Client> Rent::getClient() {
@@ -40,7 +37,7 @@ int Rent::getDuration(){
     ostringstream difference;
     difference << diff;
     string pom = difference.str();
-    string pom1 = pom.substr(0,2);
+    string pom1 = pom.substr(0,pom.find(':'));
     int hours = stoi(pom1);
     int days = hours/24;
 

@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientTest.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library/CMakeFiles/Test.dir/test/ClientTest.cpp.o"
+  "/home/pobi/Pulpit/Projekt_Pobi/library/test/ClientsRepositoryTest.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library/CMakeFiles/Test.dir/test/ClientsRepositoryTest.cpp.o"
+  "/home/pobi/Pulpit/Projekt_Pobi/library/test/RoomRepositoryTest.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library/CMakeFiles/Test.dir/test/RoomRepositoryTest.cpp.o"
+  "/home/pobi/Pulpit/Projekt_Pobi/library/test/RoomTest.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library/CMakeFiles/Test.dir/test/RoomTest.cpp.o"
+  "/home/pobi/Pulpit/Projekt_Pobi/library/test/RoomsManagerTest.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library/CMakeFiles/Test.dir/test/RoomsManagerTest.cpp.o"
   "/home/pobi/Pulpit/Projekt_Pobi/library/test/master.cpp" "/home/pobi/Pulpit/Projekt_Pobi/cmake-build-debug/library/CMakeFiles/Test.dir/test/master.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

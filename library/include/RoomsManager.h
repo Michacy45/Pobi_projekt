@@ -11,9 +11,10 @@ public:
     bool checkRoom(shared_ptr<Room>);
     bool checkRoom(int);
     void changeRoomType(shared_ptr<Room>,char);
-    void createRoom(char,int,int);
+    void createRoom(int,int,char);
     void createRoom(shared_ptr<Room>);
     void destroyRoom(shared_ptr<Room>);
     shared_ptr<Room> getRoom(int);
+    char getType(shared_ptr<Room>);
 };
 #endif

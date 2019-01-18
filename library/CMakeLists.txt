@@ -16,6 +16,9 @@ set(SOURCE_FILES
 	src/RoomRepository.cpp
 	src/RoomsManager.cpp
 	src/RoomType.cpp
+	src/Exception.cpp
+	src/ExceptionRent.cpp
+	src/ExceptionRoom.cpp
 )
 find_package(Boost 1.60 REQUIRED)
 
@@ -33,7 +36,13 @@ ${Boost_INCLUDE_DIRS}
 )
 
 set(SOURCE_TEST_HUMAN_FILES
-	test/master.cpp)
+		test/master.cpp
+		test/ClientTest.cpp
+		test/RoomTest.cpp
+		test/RoomRepositoryTest.cpp
+		test/RoomsManagerTest.cpp
+		test/ClientsRepositoryTest.cpp
+		)
 
 add_executable (Test ${SOURCE_TEST_HUMAN_FILES})
 

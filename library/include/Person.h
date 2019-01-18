@@ -13,5 +13,7 @@ public:
     Person(string, string);
     double getDiscount();
     string getClientInfo();
+    string getName();
+    string getLastName();
 };
 #endif

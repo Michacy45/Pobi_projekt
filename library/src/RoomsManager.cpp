@@ -1,7 +1,10 @@
 #include "RoomsManager.h"
+#include "ExceptionRoom.h"
 
-void RoomsManager::createRoom(char type, int number, int floor) {
-    shared_ptr<Room> room (new Room(type,number,floor));
+void RoomsManager::createRoom(int number, int floor, char type) {
+
+    if(number<=0 || floor<0) throw ExceptionRoom("Niewlasciwe liczby");
+    shared_ptr<Room> room (new Room(number,floor,type));
     if(!checkRoom(number))
         roomRepository.addRoom(room);
 }
@@ -28,4 +31,8 @@ void RoomsManager::destroyRoom(shared_ptr<Room> room) {
 
 shared_ptr<Room> RoomsManager::getRoom(int number) {
     return roomRepository.getRoom(number);
+}
+
+char RoomsManager::getType(shared_ptr<Room> room) {
+    return room->getType();
 }
